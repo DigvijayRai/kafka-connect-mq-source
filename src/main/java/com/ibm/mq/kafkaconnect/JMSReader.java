@@ -1,5 +1,6 @@
 /**
  * Copyright 2017, 2018 IBM Corporation
+
  * 
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -41,6 +42,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Reads messages from MQ using JMS. Uses a transacted session, adding messages to the current
  * transaction until told to commit. Automatically reconnects as needed.
+ * Updated by Digvijay
  */
 public class JMSReader {
     private static final Logger log = LoggerFactory.getLogger(JMSReader.class);
